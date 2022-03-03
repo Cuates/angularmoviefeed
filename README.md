@@ -6,6 +6,7 @@ Angular Moviefeed
 * [Important Note](#important-note)
 * [Prerequisite Environment](#prerequisite-environment)
 * [Generating Angular app with extra features](#generating-angular-app-with-extra-features)
+* [Basic Commands](#basic-commands)
 * [Change Page Title](#change-page-title)
 * [Change FavIcon](#change-favicon)
 * [Setup the Angular project in Nginx conf file](#setup-the-angular-project-in-nginx-conf-file)
@@ -216,6 +217,22 @@ Angular Moviefeed
          font-size: 3.5em;
        }
      </pre>
+
+### Basic Commands
+* Generate component
+ * Spelled out flags 
+  * `ng generate component <name-of-component> --skip-tests=true`
+ * Short version flags
+  * `ng g c <name-of-component> --skip-tests=true`
+ * If you want the component to be placed into a folder
+  * `ng g c <folder_name>/<name-of-component> --skip-tests=true`
+* Generate service
+ * Spelled out flags
+  * `ng generate service <name-of-service> --skip-tests=true`
+ * Short version flags
+  * `ng g s <name-of-service> --skip-tests=true`
+ * If you want the service to be placed into a folder
+  * `ng g s <folder_name>/<name-of-service> --skip-tests=true`
 
 ### Change Page Title
 * Get the title to display for each component
