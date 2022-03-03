@@ -267,13 +267,13 @@ Angular Moviefeed
 ### Setup the Angular project in Nginx conf file
 * Open your nginx configuration of choice and add the following two sections to the file in your "server" section
   * <pre>
-      location /<uri_name> {
-        alias <path_to_angular_dist_project_folder>;
+      location /&#60;uri_name&#62; {
+        alias &#60;path_to_angular_dist_project_folder&#62;;
         autoindex off;
       }
 
-      location ~ ^/<uri_name>(.*) {
-        alias <path_to_angular_dist_project_folder>;
+      location ~ ^/&#60;uri_name&#62;(.*) {
+        alias &#60;path_to_angular_dist_project_folder&#62;;
         try_files $1 $1/ /index.html =404;
       }
     </pre>
