@@ -184,62 +184,64 @@ Angular Moviefeed
         import { FormControl } from '@angular/forms';
       </pre>
   * Add the following to the export class component name section
-    * <pre>
-        public dateControl = new FormControl(new Date());
-      </pre>
+   * <pre>
+       public dateControl = new FormControl(new Date());
+     </pre>
+   * Save and Exit
   * Navigate to the .html component of choice file and add the following to the html code
-    * <pre>
-        <mat-form-field>
-          <input class="inputStyleDateTimePicker" matInput [ngxMatDatetimePicker]="picker" placeholder="Choose a date & time" [formControl]="dateControl">
-          <mat-datepicker-toggle matSuffix [for]="$any(picker)"></mat-datepicker-toggle>
-          <ngx-mat-datetime-picker #picker [showSpinners]="true" [showSeconds]="true" [stepHour]="1" [stepMinute]="1" [stepSecond]="1" [touchUi]="false" [enableMeridian]="false"
-          [disableMinute]="false" [hideTime]="false"></ngx-mat-datetime-picker>
-        </mat-form-field>
-      </pre>
+   * <pre>
+       <mat-form-field>
+         <input class="inputStyleDateTimePicker" matInput [ngxMatDatetimePicker]="picker" placeholder="Choose a date & time" [formControl]="dateControl">
+         <mat-datepicker-toggle matSuffix [for]="$any(picker)"></mat-datepicker-toggle>
+         <ngx-mat-datetime-picker #picker [showSpinners]="true" [showSeconds]="true" [stepHour]="1" [stepMinute]="1" [stepSecond]="1" [touchUi]="false" [enableMeridian]="false"
+         [disableMinute]="false" [hideTime]="false"></ngx-mat-datetime-picker>
+       </mat-form-field>
+     </pre>
+   * Save and Exit
   * Navigate to the .css component of choice file and add the following to the css code
-    * <pre>
-        // Input field styling
-        .mat-form-field {
-          font-size: .3em;
-        }
+   * <pre>
+       // Input field styling
+       .mat-form-field {
+         font-size: .3em;
+       }
 
-        // Date Time Picker input field style
-        .inputStyleDateTimePicker {
-          font-size: 3.5em;
-        }
+       // Date Time Picker input field style
+       .inputStyleDateTimePicker {
+         font-size: 3.5em;
+       }
 
-        // Input field icon styling
-        .mat-datepicker-toggle {
-          font-size: 3.5em;
-        }
-      </pre>
+       // Input field icon styling
+       .mat-datepicker-toggle {
+         font-size: 3.5em;
+       }
+     </pre>
 
 ### Change Page Title
 * Get the title to display for each component
   * Add the following line to the app.module.ts file
-    * <pre>
-        import { BrowserModule, Title } from '@angular/platform-browser';
-      </pre>
+   * <pre>
+       import { BrowserModule, Title } from '@angular/platform-browser';
+     </pre>
   * Add the following to the NgModule providers section
-    * <pre>
-        Title
-      </pre>
+   * <pre>
+       Title
+     </pre>
   * Add the following line to the component.ts of choice file
-    * <pre>
-        import { Title } from '@angular/platform-browser';
-      </pre>
+   * <pre>
+       import { Title } from '@angular/platform-browser';
+     </pre>
   * Add the following line in the export class section of the component.ts of choice file
-    * <pre>
-        title = 'Media Feed';
-      </pre>
+   * <pre>
+       title = 'Media Feed';
+     </pre>
   * Add the following line in the export class constructor() parameter function of the component.ts of choice file
-    * <pre>
-        constructor(private titleService:Title) { }
-      </pre>
+   * <pre>
+       constructor(private titleService:Title) { }
+     </pre>
   * Add the following line in the export class ngOnIntit() function of the component.ts of choice file
-    * <pre>
-        this.titleService.setTitle(this.title);
-      </pre>
+   * <pre>
+       this.titleService.setTitle(this.title);
+     </pre>
 
 ### Change FavIcon
 * Overwrite the favicon.ico with your icon by replacing the file in src directory
@@ -257,6 +259,7 @@ Angular Moviefeed
         try_files $1 $1/ /index.html =404;
       }
     </pre>
+  * Save and Exit
 * Test and restart nginx if successful test
   * Test Nginx
     * `sudo nginx -t`
@@ -271,6 +274,7 @@ Angular Moviefeed
         * `<base href="/">`
       * To
         * `<base href="/<URL_Name>/">`
+    * Save and Exit
 
 ### Build Application for Production
 * Navigate to project directory
