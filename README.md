@@ -331,7 +331,6 @@ Angular Moviefeed
 [angular.forms/FormControl/setErrors/typescript-formcontrol-seterrors-method-examples](https://typescript.hotexamples.com/examples/%40angular.forms/FormControl/setErrors/typescript-formcontrol-seterrors-method-examples.html)<br />
 [angular FormControl](https://angular.io/api/forms/FormControl) <br />
 [how-to-clear-an-angular-reactive-form-input-values](https://stackoverflow.com/questions/54937287/how-to-clear-an-angular-reactive-form-input-values) <br />
-[how-to-clear-an-angular-reactive-form-input-values](https://stackoverflow.com/questions/54937287/how-to-clear-an-angular-reactive-form-input-values) <br />
 [angular DatePipe](https://angular.io/api/common/DatePipe) <br />
 [angular-10-formatdate-method](https://www.geeksforgeeks.org/angular-10-formatdate-method/) <br />
 [angular-date-pipe-formatting-date-times-in-angular-with-examples](https://www.angularjswiki.com/angular/angular-date-pipe-formatting-date-times-in-angular-with-examples/) <br />
@@ -378,11 +377,11 @@ Angular Moviefeed
 [how-to-call-an-angular-component-on-click-event-angular](https://stackoverflow.com/questions/58795311/how-to-call-an-angular-component-on-click-event-angular) <br />
 [how-to-get-value-of-input-field-in-typescript-file-angular-4](https://pretagteam.com/question/how-to-get-value-of-input-field-in-typescript-file-angular-4) <br />
 [data-transfer-one-component-to-another-angular-7-c076272c78e1](https://medium.com/@nodexperts_88267/data-transfer-one-component-to-another-angular-7-c076272c78e1) <br />
-[angular-get-input-value-multiple-ways](https://www.cloudhadoop.com/angular-get-input-value-multiple-ways/) <br />>
+[angular-get-input-value-multiple-ways](https://www.cloudhadoop.com/angular-get-input-value-multiple-ways/) <br />
 [mozilla CSS @keyframes](https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes) <br />
 [css3-spin-animation](https://stackoverflow.com/questions/14859322/css3-spin-animation) <br />
 [how-to-add-a-body-to-angular-httpclient-delete-function](https://stackoverflow.com/questions/46049082/how-to-add-a-body-to-angular-httpclient-delete-function) <br />
-[angular-httpclient-post#Body](https://www.concretepage.com/angular/angular-httpclient-post#Body) <br />
+[angular-httpclient-post Body](https://www.concretepage.com/angular/angular-httpclient-post#Body) <br />
 [angular-httpclient-get-example](https://www.concretepage.com/angular-2/angular-httpclient-get-example) <br />
 [angular httpclient get-params](https://www.angularjswiki.com/httpclient/get-params/) <br />
 [angular app.component.html 02](https://stackblitz.com/edit/angular-harudq?file=src%2Fapp%2Fapp.component.html) <br />
@@ -392,16 +391,16 @@ Angular Moviefeed
 [angular-service-example](https://www.cloudhadoop.com/angular-service-example/) <br />
 [angular-13-services-example-tutorial](https://www.tutsmake.com/angular-13-services-example-tutorial/) <br />
 [angular-13-httpclient-http-services-example](https://www.tutsmake.com/angular-13-httpclient-http-services-example/) <br />
-[angular-service-tutorial-with-example/](https://www.positronx.io/angular-service-tutorial-with-example/) <br />
-[angular-service-example-crud-operations/](https://www.freakyjolly.com/angular-service-example-crud-operations/) <br />
-[Test JSON data string](http://jsonplaceholder.typicode.com/posts <br />
+[angular-service-tutorial-with-example](https://www.positronx.io/angular-service-tutorial-with-example/) <br />
+[angular-service-example-crud-operations](https://www.freakyjolly.com/angular-service-example-crud-operations/) <br />
+[Test JSON data string](http://jsonplaceholder.typicode.com/posts) <br />
 [angular-httpheaders](https://www.tektutorialshub.com/angular/angular-httpheaders/) <br />
 [angular-ngfor-template-element](https://ultimatecourses.com/blog/angular-ngfor-template-element) <br />
 [ngfor-repeating-components](https://stackoverflow.com/questions/37520170/ngfor-repeating-components) <br />
 [angular generate component-command](https://angular.io/cli/generate#component-command) <br />
 [do-you-know-how-to-resolve-cors-issues-in-angular-9d818474825f](https://medium.com/weekly-webtips/do-you-know-how-to-resolve-cors-issues-in-angular-9d818474825f) <br />
 [javascript-how-to-access-the-return-value-of-a-promise-object-1bck](https://dev.to/ramonak/javascript-how-to-access-the-return-value-of-a-promise-object-1bck) <br />
-[angular/use-ngif-else-on-angular/](https://www.delftstack.com/howto/angular/use-ngif-else-on-angular/) <br />
+[angular/use-ngif-else-on-angular](https://www.delftstack.com/howto/angular/use-ngif-else-on-angular/) <br />
 [angular-http-get-with-parameter](https://stackoverflow.com/questions/44280303/angular-http-get-with-parameter) <br />
 [show-a-loading-gif-for-each-http-request-angular-4](https://stackoverflow.com/questions/45323108/show-a-loading-gif-for-each-http-request-angular-4) <br />
 [angular defining-observers](https://angular.io/guide/observables#defining-observers) <br />
@@ -409,7 +408,7 @@ Angular Moviefeed
 [subscribe-is-deprecated-use-an-observer-instead-o](https://stackoverflow.com/questions/55472124/subscribe-is-deprecated-use-an-observer-instead-of-an-error-callback) <br />
 [Refine subscribe and tap signatures](https://github.com/ReactiveX/rxjs/issues/4159) <br />
 [fix subscribe Deprecate null starting parameter signatures for subscribe](https://github.com/ReactiveX/rxjs/pull/4202) <br />
-[angular-material-components/moment-adapter](https://www.npmjs.com/package/@angular-material-components/moment-adapter) <br />
+[angular-material-components moment-adapter](https://www.npmjs.com/package/@angular-material-components/moment-adapter) <br />
 [cannot-find-module-angular-material-moment-adapter](https://stackoverflow.com/questions/47816319/cannot-find-module-angular-material-moment-adapter) <br />
 [how-to-remove-space-bottom-mat-form-field](https://stackoverflow.com/questions/53684763/how-to-remove-space-bottom-mat-form-field) <br />
 [momentjsbdisplaying format](https://momentjs.com/docs/#/displaying/format/) <br />
@@ -417,7 +416,7 @@ Angular Moviefeed
 [material angular theming](https://material.angular.io/guide/theming) <br />
 [material angular floating-label](https://material.angular.io/components/form-field/overview#floating-label) <br />
 [custom-theme-for-angular-material-components-series-part-1-create-a-theme](https://indepth.dev/posts/1320/custom-theme-for-angular-material-components-series-part-1-create-a-theme) <br />
-[create-angular-material-8-custom-theme/](https://www.positronx.io/create-angular-material-8-custom-theme/) <br />
+[create-angular-material-8-custom-theme](https://www.positronx.io/create-angular-material-8-custom-theme/) <br />
 [demo-ngx-mat-datetime-picker app.component.html](https://stackblitz.com/edit/demo-ngx-mat-datetime-picker?file=src%2Fapp%2Fapp.component.html) <br />
 [3-ways-to-fix-property-has-no-initializer-and-is-not-definitely-assigned-i](https://tutorial.tips/3-ways-to-fix-property-has-no-initializer-and-is-not-definitely-assigned-in-the-constructorts/) <br />
 [angular datepicker-formats-example](https://stackblitz.com/edit/angular-d2qoxi-iy68bi?file=app%2Fdatepicker-formats-example.html) <br />
@@ -436,24 +435,23 @@ Angular Moviefeed
 [material angular /datepicker](https://material.angular.io/components/datepicker/overview) <br />
 [angular-material-109-datepicker-timepicker-tutorial](https://www.freakyjolly.com/angular-material-109-datepicker-timepicker-tutorial/) <br />
 [angular-material-datepicker-change-format-of-selected-date](https://www.freakyjolly.com/angular-material-datepicker-change-format-of-selected-date/) <br />
-[how-to-add-angular-time-picker-in-angular/](https://edupala.com/how-to-add-angular-time-picker-in-angular/) <br />
+[how-to-add-angular-time-picker-in-angular](https://edupala.com/how-to-add-angular-time-picker-in-angular/) <br />
 [angular-13-material-datepicker-tutorial-exampleexample](https://www.itsolutionstuff.com/post/angular-13-material-datepicker-tutorial-exampleexample.html) <br />
 [ngxmatdatetimepicker-is-not-assignable-to-type-matdatepickerbase](https://stackoverflow.com/questions/64826483/ngxmatdatetimepicker-is-not-assignable-to-type-matdatepickerbase) <br />
 [angular-material-components datetime-picker](https://www.npmjs.com/package/@angular-material-components/datetime-picker) <br />
-[angular-ngmodel/](https://appdividend.com/2022/01/19/angular-ngmodel/) <br />
+[angular-ngmodel](https://appdividend.com/2022/01/19/angular-ngmodel/) <br />
 [Fetching & Displaying Current Date in Angular](https://www.youtube.com/watch?v=ofX6zb4rHM0) <br />
 [Angular Datepicker mat-datepicker How to use angular material datepicker](https://www.youtube.com/watch?v=OxAHbXSTfoo) <br />
 [Angular Material Datepicker mat-datepicker How to use angular material datepicker to show as html](https://www.youtube.com/watch?v=MVrK4mHzrDM) <br />
 [How to add datepicker using angular material](https://www.youtube.com/watch?v=GuiAb6BxT3I) <br />
 [angular-datetime-picker-meeting-calendar-owldatetime](https://codezup.com/angular-datetime-picker-meeting-calendar-owldatetime/) <br />
-[angular-forms-ngmodel-directive/](https://www.geeksforgeeks.org/angular-forms-ngmodel-directive/) <br />
+[angular-forms-ngmodel-directive](https://www.geeksforgeeks.org/angular-forms-ngmodel-directive/) <br />
 [font-awesome-icon-with-an-onclick-event-set](https://stackoverflow.com/questions/35185974/font-awesome-icon-with-an-onclick-event-set) <br />
 [typescript-property-does-not-exist-on-type](https://stackoverflow.com/questions/34274487/typescript-property-does-not-exist-on-type) <br />
 [visualstudio code remote ssh](https://code.visualstudio.com/docs/remote/ssh) <br />
-[set-up-vs-code-with-a-remote/](https://engineerworkshop.com/blog/set-up-vs-code-with-a-remote/) <br />
+[set-up-vs-code-with-a-remote](https://engineerworkshop.com/blog/set-up-vs-code-with-a-remote/) <br />
 [connect-to-your-remote-servers-from-visual-studio-code-eb5a5875e348](https://medium.com/@sujaypillai/connect-to-your-remote-servers-from-visual-studio-code-eb5a5875e348) <br />
 [angular styleguide folders-by-feature-structure](https://angular.io/guide/styleguide#folders-by-feature-structure) <br />
 [angular-folder-structure-best-practices](https://www.tektutorialshub.com/angular/angular-folder-structure-best-practices/) <br />
 [angular-project-structure-best-practice](https://stackoverflow.com/questions/52933476/angular-project-structure-best-practice) <br />
 [angular-architecture-best-practices](https://dev-academy.com/angular-architecture-best-practices/) <br />
-
