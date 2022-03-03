@@ -186,20 +186,20 @@ Angular Moviefeed
         import { FormControl } from '@angular/forms';
       </pre>
   * Add the following to the export class component name section
-   * <pre>
-       public dateControl = new FormControl(new Date());
-     </pre>
-   * Save and Exit
+    * <pre>
+        public dateControl = new FormControl(new Date());
+      </pre>
+    * Save and Exit
   * Navigate to the .html component of choice file and add the following to the html code
-   * <pre>
-       <mat-form-field>
-         <input class="inputStyleDateTimePicker" matInput [ngxMatDatetimePicker]="picker" placeholder="Choose a date & time" [formControl]="dateControl">
-         <mat-datepicker-toggle matSuffix [for]="$any(picker)"></mat-datepicker-toggle>
-         <ngx-mat-datetime-picker #picker [showSpinners]="true" [showSeconds]="true" [stepHour]="1" [stepMinute]="1" [stepSecond]="1" [touchUi]="false" [enableMeridian]="false"
-         [disableMinute]="false" [hideTime]="false"></ngx-mat-datetime-picker>
-       </mat-form-field>
-     </pre>
-   * Save and Exit
+    * <pre>
+        &#60;mat-form-field&#62;
+          &#60;input class="inputStyleDateTimePicker" matInput [ngxMatDatetimePicker]="picker" placeholder="Choose a date & time" [formControl]="dateControl"&#62;
+          &#60;mat-datepicker-toggle matSuffix [for]="$any(picker)"&#62;&#60;/mat-datepicker-toggle&#62;
+          &#60;ngx-mat-datetime-picker #picker [showSpinners]="true" [showSeconds]="true" [stepHour]="1" [stepMinute]="1" [stepSecond]="1" [touchUi]="false" [enableMeridian]="false"
+          [disableMinute]="false" [hideTime]="false">&#60;/ngx-mat-datetime-picker&#62;
+        &#60;/mat-form-field&#62;
+      </pre>
+    * Save and Exit
   * Navigate to the .css component of choice file and add the following to the css code
     * <pre>
         // Input field styling
