@@ -201,65 +201,65 @@ Angular Moviefeed
      </pre>
    * Save and Exit
   * Navigate to the .css component of choice file and add the following to the css code
-   * <pre>
-       // Input field styling
-       .mat-form-field {
-         font-size: .3em;
-       }
+    * <pre>
+        // Input field styling
+        .mat-form-field {
+          font-size: .3em;
+        }
 
-       // Date Time Picker input field style
-       .inputStyleDateTimePicker {
-         font-size: 3.5em;
-       }
+        // Date Time Picker input field style
+        .inputStyleDateTimePicker {
+          font-size: 3.5em;
+        }
 
-       // Input field icon styling
-       .mat-datepicker-toggle {
-         font-size: 3.5em;
-       }
-     </pre>
+        // Input field icon styling
+        .mat-datepicker-toggle {
+          font-size: 3.5em;
+        }
+      </pre>
 
 ### Basic Commands
 * Generate component
- * Spelled out flags 
-  * `ng generate component <name-of-component> --skip-tests=true`
- * Short version flags
-  * `ng g c <name-of-component> --skip-tests=true`
- * If you want the component to be placed into a folder
-  * `ng g c <folder_name>/<name-of-component> --skip-tests=true`
+  * Spelled out flags 
+    * `ng generate component <name-of-component> --skip-tests=true`
+  * Short version flags
+    * `ng g c <name-of-component> --skip-tests=true`
+  * If you want the component to be placed into a folder
+    * `ng g c <folder_name>/<name-of-component> --skip-tests=true`
 * Generate service
- * Spelled out flags
-  * `ng generate service <name-of-service> --skip-tests=true`
- * Short version flags
-  * `ng g s <name-of-service> --skip-tests=true`
- * If you want the service to be placed into a folder
-  * `ng g s <folder_name>/<name-of-service> --skip-tests=true`
+  * Spelled out flags
+    * `ng generate service <name-of-service> --skip-tests=true`
+  * Short version flags
+    * `ng g s <name-of-service> --skip-tests=true`
+  * If you want the service to be placed into a folder
+    * `ng g s <folder_name>/<name-of-service> --skip-tests=true`
 
 ### Change Page Title
 * Get the title to display for each component
   * Add the following line to the app.module.ts file
-   * <pre>
-       import { BrowserModule, Title } from '@angular/platform-browser';
-     </pre>
+    * <pre>
+        import { BrowserModule, Title } from '@angular/platform-browser';
+      </pre>
   * Add the following to the NgModule providers section
-   * <pre>
-       Title
-     </pre>
+    * <pre>
+        Title
+      </pre>
   * Add the following line to the component.ts of choice file
-   * <pre>
-       import { Title } from '@angular/platform-browser';
-     </pre>
+    * <pre>
+        import { Title } from '@angular/platform-browser';
+      </pre>
   * Add the following line in the export class section of the component.ts of choice file
-   * <pre>
-       title = 'Media Feed';
-     </pre>
+    * <pre>
+        title = 'Media Feed';
+      </pre>
   * Add the following line in the export class constructor() parameter function of the component.ts of choice file
-   * <pre>
-       constructor(private titleService:Title) { }
-     </pre>
+    * <pre>
+        constructor(private titleService:Title) { }
+      </pre>
   * Add the following line in the export class ngOnIntit() function of the component.ts of choice file
-   * <pre>
-       this.titleService.setTitle(this.title);
-     </pre>
+    * <pre>
+        this.titleService.setTitle(this.title);
+      </pre>
 
 ### Change FavIcon
 * Overwrite the favicon.ico with your icon by replacing the file in src directory
