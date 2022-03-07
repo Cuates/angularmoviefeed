@@ -6,9 +6,10 @@ import { Injectable } from '@angular/core';
 export class SetVariableService {
   // Set URL parameter for the API call
   apiURL = '<api_url>';
+  apiActionStatusURL = '<api_url_action_status>';
 
   // Set the URL link for the view button
-  urlPrefixValue: string = 'view_button_url';
+  urlPrefixValue: string = '<view_button_url>';
 
   // Set parameters for the API call
   payload = [{}];
