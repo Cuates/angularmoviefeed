@@ -220,6 +220,23 @@ Angular Moviefeed
         }
       </pre>
     * Save and Exit
+* Scroll To Top of Page
+  * `ng add ngx-scrolltop`
+    * <pre>
+        ℹ Using package manager: npm
+        ✔ Found compatible package version: ngx-scrolltop@4.1.2.
+        ✔ Package information loaded.
+
+        The package ngx-scrolltop@4.1.2 will be installed and executed.
+        Would you like to proceed? (Y/n) Y
+      </pre>
+    * The following tag will be added to the app.component.html
+      * `<ngx-scrolltop></ngx-scrolltop>`
+        * NOTE: If you do not want the scroll top on all pages, then remove from app.component.html and add to specific component pages
+    * The following will be added to the app.module.ts file
+      * `import { NgxScrollTopModule } from 'ngx-scrolltop';`
+      * Also, to the NgModule imports section
+        * `NgxScrollTopModule`
 
 ### Basic Commands
 * Generate component
