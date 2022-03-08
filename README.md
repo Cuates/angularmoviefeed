@@ -232,7 +232,7 @@ Angular Moviefeed
       </pre>
     * The following tag will be added to the app.component.html
       * `<ngx-scrolltop></ngx-scrolltop>`
-        * NOTE: If you do not want the scroll top on all pages, then remove the ngx-scrolltop tags from app.component.html and add the tags to specific component pages
+        * NOTE: If you do not want the scroll top on all pages, then remove the ngx-scrolltop tags from app.component.html. Add the tags to the specific component pages of choice.
     * The following will be added to the app.module.ts file
       * `import { NgxScrollTopModule } from 'ngx-scrolltop';`
       * Also, to the NgModule imports section
