@@ -49,6 +49,11 @@ Angular Moviefeed
         * `ng serve`
 * Start Angular which opens in a web browser
   * `ng serve -o`
+* Check for outdated packages
+  * Make sure you are in the correct directory to install the font in the new angular project
+    * Open a terminal and navigate to the project location
+      * Execute the following command in the powershell terminal
+        * `npm outdated`
 * Bootstrap (Make sure you are in the Angular project folder)
   * Install Bootstrap
     * `npm install --save bootstrap`
