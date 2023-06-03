@@ -18,6 +18,7 @@ Angular Moviefeed
 
 ### **Important Note**
 * This script was written with Angular 13.2.5 methods on NodeJS 17.6.0
+* Updates to script with Angular 16.0.3 methods on NodeJS 18.16.0
 
 ### Prerequisite Environment
 * Install
@@ -39,7 +40,7 @@ Angular Moviefeed
           * Choose SCSS
         * `ng new <project-name> --style=scss/css/... --skipTests --routing=true/false`
           * NOTE: A newer flag will be utilized from now on
-            * `ng new <project-name> --style=scss/css/... --skiptests --routing=true/false`
+            * `ng new <project-name> --style=scss/css/... --skip-tests=true/false --routing=true/false`
           * **WAIT FOR THIS TO FINISH**
 * Open Command Prompt without Administrator
   * Navigate to project
