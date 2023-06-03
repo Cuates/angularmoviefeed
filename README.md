@@ -54,6 +54,19 @@ Angular Moviefeed
     * Open a terminal and navigate to the project location
       * Execute the following command in the powershell terminal
         * `npm outdated`
+* Update packages
+  * Make sure you are in the correct directory to install the font in the new angular project
+    * Open a terminal and navigate to the project location
+      * Execute the following command in the powershell terminal
+        * ng update <package_name>
+        * i.e. `ng update @angular/material`
+      * Not sure if this works but a website says if you are updating from an existing lower version to a newer version, then remove the package first and then add the new package to the project again
+        * Remove existing package
+          * npm remove <package_name>
+          * i.e. `npm remove @angular/material`
+        * Add new package
+          * npm add <package_name>
+          * i.e. `npm add @angular/material`
 * Bootstrap (Make sure you are in the Angular project folder)
   * Install Bootstrap
     * `npm install --save bootstrap`
