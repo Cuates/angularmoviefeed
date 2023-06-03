@@ -278,6 +278,30 @@ Angular Moviefeed
     * `ng g s <name-of-service> --skip-tests=true`
   * If you want the service to be placed into a folder
     * `ng g s <folder_name>/<name-of-service> --skip-tests=true`
+* Generate Interface
+  * Spelled out flags
+    * `ng generate interface <name-of-interface> [type]`
+  * Short version flags
+    * `ng g i <name-of-interface> [type]`
+  * i.e. `ng g i <name-of-interface> interface`
+* Generate Class
+  * Spelled out flags
+    * `ng generate class <name-of-class> --skip-tests=true`
+  * Short version flags
+    * `ng g cl <name-of-class> --skip-tests=true`
+  * i.e. `ng g cl <name-of-class> --skip-tests=true`
+* Generate Enum (Enumerator)
+  * Spelled out flags
+    * `ng generate enum <name-of-enum> --type=enum`
+  * Short version flags
+    * `ng g e <name-of-enum> --type=enum`
+  * i.e. `ng g e <name-of-class> --type=enum`
+* Generate Directive
+  * Spelled out flags
+    * `ng generate directive <name-of-directive>`
+  * Short version flags
+    * `ng g d <name-of-directive>`
+  * i.e. `ng g d <name-of-directive>`
 
 ### Change Page Title
 * Get the title to display for each component
