@@ -67,6 +67,12 @@ Angular Moviefeed
         * Add new package
           * npm add <package_name>
           * i.e. `npm add @angular/material`
+* Install package
+  * Make sure you are in the correct directory for nexus to install the font in the new angular project
+    * Open a terminal and navigate to the project location
+      * Execute the following command in the powershell terminal
+        * ng add <package_name>
+        * i.e. `ng add @angular/material`
 * Bootstrap (Make sure you are in the Angular project folder)
   * Install Bootstrap
     * `npm install --save bootstrap`
