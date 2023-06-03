@@ -370,10 +370,10 @@ Angular Moviefeed
   * `cd /path/inside/parent/directory`
     * Run ng build command in Angular CLI
       * To get the preview of the application, run the following command:
-        * `ng serve --configuration production`
+        * `ng serve --configuration=production`
           * This starts a local HTTP server with production files. Navigate to http://localhost:4200/ to view the application.
       * Execute the following command to get the application ready for deployment
-        * `ng build --configuration production`
+        * `ng build --configuration=production`
           * If you get the following warning and or error message(s), then you will need to up the maximumWarning and or maximumError in the angular.json file.
             * "Warning: bundle initial exceeded maximum budget. Budget 500.00 kB was not met by 835.05 kB with a total of 1.30 MB.
             * Error: bundle initial exceeded maximum budget. Budget 1.00 MB was not met by 311.05 kB with a total of 1.30 MB."
