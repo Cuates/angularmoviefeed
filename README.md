@@ -142,6 +142,8 @@ Angular Moviefeed
           Purple/Green       [ Preview: https://material.angular.io?theme=purple-green ]
           Custom
         ? Set up global Angular Material typography styles? (y/N) Yes
+        ? Include the Angular animations module?
+        > Include and enable animations
         ? Set up browser animations for Angular Material? (Y/n) Yes
       </pre>
     * The above will automatically be inserted into the angular.json file under the styles sections of the file
