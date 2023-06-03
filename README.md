@@ -148,9 +148,9 @@ Angular Moviefeed
       </pre>
     * The above will automatically be inserted into the angular.json file under the styles sections of the file
       * `"./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",`
-* Install Material Datepicker and Time Picker Package
+* Install Material Datepicker and Time Picker Package **NOT COMPATIBLE WITH ANGULAR 16+ AT THE MOMENT**
   * `npm install @angular-material-components/datetime-picker`
-* Install Material Moment Adapter Package
+* Install Material Moment Adapter Package **NOT COMPATIBLE WITH ANGULAR 16+ AT THE MOMENT**
   * `npm install @angular-material-components/moment-adapter`
 * Utilize the Material Datepicker and Time Picker and Material Moment Adapter in your project, add the following lines to your app.module.ts file. Your settings will differ from what is shown below.
   * Add the following into the import section of the src/app/app.module.ts file
