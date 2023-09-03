@@ -14,7 +14,7 @@ import { GetDataService } from '../../share/service/api/get-data.service';
 })
 export class DisplayDataComponent implements OnInit {
   // Initialize parameters
-  title = 'project_name';
+  title = 'Movie Feed';
 
   // Set the media data to empty array
   mediaData: any = [];
@@ -55,7 +55,7 @@ export class DisplayDataComponent implements OnInit {
       this.queryLimit = this.queryData.limit;
 
       // Set the value if given from the new array list with the value being lowercased
-      this.querySort = this.queryData.sort.toLowerCase();
+      this.querySort = this.queryData.sort?.toLowerCase();
     })
 
     // Check if values were given in the query string and if the value is within range
