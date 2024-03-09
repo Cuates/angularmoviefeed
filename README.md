@@ -30,7 +30,8 @@ Angular Moviefeed
   * `npm install -g npm@latest`
   * `npm -v`
   * Update package.json file
-    * npm install -g npm-check-updates (NOT SURE IF THIS DID ANYTHING)
+    * Install ncu package globally
+      * `npm install -g npm-check-updates`
     * Checks for updates from the package.json file
       * `ncu`
     * Update the package.json file
