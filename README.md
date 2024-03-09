@@ -29,6 +29,14 @@ Angular Moviefeed
 * Npm
   * `npm install -g npm@latest`
   * `npm -v`
+  * Update package.json file
+    * npm install -g npm-check-updates (NOT SURE IF THIS DID ANYTHING)
+    * Checks for updates from the package.json file
+      * `ncu`
+    * Update the package.json file
+      * `ncu -u`
+    * Update your package-lock.json file from the package.json file
+      * `npm update --save`
 
 ### Generating Angular app with extra features
 * Generate Angular App
@@ -564,3 +572,4 @@ Angular Moviefeed
 [IsActiveMatchOptions](https://angular.io/api/router/IsActiveMatchOptions) <br />
 [RouterLinkActive](https://angular.io/api/router/RouterLinkActive) <br />
 [angular-passing-optional-query-parameters-to-route/](https://www.tektutorialshub.com/angular/angular-passing-optional-query-parameters-to-route/) <br />
+[npm update is not updating the version in package.json file](https://stackoverflow.com/questions/71734483/npm-update-is-not-updating-the-version-in-package-json-file) <br />
